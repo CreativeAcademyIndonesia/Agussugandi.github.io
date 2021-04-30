@@ -27,6 +27,7 @@ body {
 
 /* Hero Banner */
 #hero-banner {
+    max-height: 800px;
     margin-top: 50px;
     width: 100%;
 }
@@ -375,8 +376,8 @@ footer .row {
     }
 
     footer .row {
-        padding-top: 60px;
-    }
+    padding-top: 60px;
+}
 
 
 }
