@@ -6,7 +6,7 @@ body {
 
 /* Navbar */
 .navbar-brand {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     color: #6A3EE6 !important;
 }
 
@@ -32,12 +32,13 @@ body {
     width: 100%;
     text-align: center;
 }
+
 #hero-banner img {
     width: 100%;
 }
 
 #hero-banner h1 {
-    font-size: 2.4rem;
+    font-size: 2rem;
     font-weight: 700;
 }
 
@@ -109,7 +110,7 @@ body {
  }
  
 .info-body h6 {
-     font-size: 1.2rem;
+     font-size: 1rem;
      color: #8667DE;
  }
 
@@ -433,12 +434,12 @@ footer .row {
     }
 
     #hero-banner h1 {
-        font-size: 3.7rem;
+        font-size: 3rem;
         font-weight: 700;
     }
 
     #hero-banner p {
-        font-size: 1.4rem;
+        font-size: 1.1rem;
     }
 
     .btn-sm-2 {
@@ -500,3 +501,4 @@ footer .row {
 
 
 }
+
