@@ -13,12 +13,16 @@ hr {
 
 /* Navbar */
 .navbar-brand {
-    font-size: 1.2rem;
+    font-size: .9rem;
     color: #6A3EE6 !important;
 }
 
+.navbar-brand img {
+    visibility: hidden;
+}
+
 .nav-item  {
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 .nav-item a.active {
@@ -121,7 +125,7 @@ hr {
  
 .info-body h6 {
      /* font-size: 1rem; */
-     font-size: 1rem;
+     font-size: .9rem;
      color: #8667DE;
  }
 
@@ -129,7 +133,7 @@ hr {
     margin-top: -6px;
     color:  black;
     /* font-size: .9rem; */
-    font-size: .9rem;
+    font-size: .8rem;
 }
 
 
@@ -254,13 +258,14 @@ hr {
 #workexperience h6 {
     color: #8667DE;
     font-weight: 700;
+    margin-left: 1.2rem;
 }
-
 
 
 #workexperience p {
     margin-top: -5px;
-    font-size: 1rem;
+    font-size: .8rem;
+    margin-left: 1.2rem;
 }
 
 .workexperience-item img {
@@ -269,6 +274,10 @@ hr {
 
 #workexperience svg {
     fill: #ff9900;
+}
+
+.bintang {
+    margin-left: 1.2rem;
 }
 
 .divider {
@@ -366,7 +375,7 @@ hr {
 
 .social-item a{
     margin-top: -6px;
-    font-size: 1rem;
+    font-size: .8rem;
     }
 
 .social-item span {
@@ -433,6 +442,32 @@ footer .row {
 
 @media (min-width : 922px) {
 
+    .navbar-brand {
+        font-size: 1.2rem;
+        color: #6A3EE6 !important;
+    }
+
+    .navbar-brand img {
+        visibility: visible;
+    }
+
+    #workexperience h6 {
+        margin-left: 0;
+    }
+    
+    
+    #workexperience p {
+        margin-left: 0;
+    }
+
+    .bintang {
+        margin-left: 0;
+    }
+
+    .nav-item  {
+        font-size: 1.2rem;
+    }
+
     .info {
         margin-top: -200px;
     }
@@ -484,6 +519,10 @@ footer .row {
 
     #socialmedia .card-body {
         display: flex;
+    }
+
+    .social-item a {
+        font-size: 1rem;
     }
 
     footer .row {
