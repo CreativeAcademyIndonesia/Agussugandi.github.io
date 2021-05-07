@@ -4,13 +4,6 @@ body {
     /* height: 5000px; */
 }
 
-hr {
-    margin-right: auto;
-    margin-left: auto;
-    width: 90%;
-    margin-top: -7px;
-}
-
 /* Navbar */
 .navbar-brand {
     font-size: .9rem;
